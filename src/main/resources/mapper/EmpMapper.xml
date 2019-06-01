@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="github.wyt.sample.mapper.EmpMapper">
-    <select id="selectEmp" resultType="Emp">
+<mapper namespace="github.wyt.sample.dao.EmpMapper">
+    <select id="selectEmp" resultType="github.wyt.sample.domain.Emp">
         select * from Emp where empno = #{empno}
     </select>
 </mapper>

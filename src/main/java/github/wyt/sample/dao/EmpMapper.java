@@ -1,4 +1,4 @@
-package github.wyt.sample.mapper;
+package github.wyt.sample.dao;
 
 import github.wyt.sample.domain.Emp;
 
