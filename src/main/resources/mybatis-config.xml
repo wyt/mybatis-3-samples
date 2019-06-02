@@ -8,6 +8,7 @@
 
     <environments default="development">
         <environment id="development">
+            <!-- 默认关闭事务自动提交 -->
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="${jdbc.driver}"/>
